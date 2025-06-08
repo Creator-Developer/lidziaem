@@ -1,0 +1,164 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Podstawy */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+/* Wrapper: całość strony */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Główna zawartość */
+.content {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee; /* jasne tło */
+  color: #222222; /* ciemny tekst */
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* delikatny cień */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #222222;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+/* Stopka */
+.footer {
+  background-color: #eeeeee; /* jasne tło */
+  color: #444444; /* ciemniejszy tekst */
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #cccccc; /* delikatna linia oddzielająca */
+}
+
+/* Ogólne linki */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sekcja social media */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+/* Indywidualne kolory sociali */
+.social .instagram {
+  color: #de5683;
+}
+
+.social .tiktok {
+  color: #ca00d1;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+/* Sekcje: About Me i Contact */
+.section {
+  margin: 60px auto;
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #222;
+}
+
+.section p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+
+/* Kafelki o studiach */
+.study-boxes {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.study-tile {
+  flex: 1 1 200px;
+  background-color: #f9f9fc;
+  padding: 25px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.study-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.study-tile h3 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.study-tile p {
+  font-size: 15px;
+  color: #666;
+}
