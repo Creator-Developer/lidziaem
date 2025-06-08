@@ -8,11 +8,10 @@ It also links to her social media and shop.
 ## 🌐 Live Preview
 
 🔗 [Visit the Website](https://lidziaem.art) - SOON
-🛒 [Etsy Shop](https://etsy.com/shop/lidziaem) - SOON
 
 ## 👩‍🎨 Who is this site for?
 
-This website was created for **Lidzia Em**, an emerging artist building her personal brand and selling her work online.  
+This website was created for **Lidzia Em** [Instagram](https://www.instagram.com/lidziaem/), an emerging artist building her personal brand and selling her work online.  
 The goal was to design a clean, mobile-friendly, and elegant site that reflects her creative identity.
 
 
